@@ -24,6 +24,6 @@ int main(){
     sleep(1);
   }
   printf("Heads: %d, Tails: %d¥n",Heads,Tails);
-  if(Heads>Tails) printf("You won¥n");
-  else printf("You lost¥n");
+  if(Heads>Tails) printf("%s won¥n",name);
+  else printf("%s lost¥n",name);
 }
