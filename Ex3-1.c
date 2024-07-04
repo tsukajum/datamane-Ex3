@@ -2,8 +2,13 @@
 #include<stdlib.h>
 #include<time.h>
 #include<unistd.h>
+#define MAX 20
 int main(){
   int coin,i,Heads=0,Tails=0;
+  char name[MAX];
+  printf("Who are you?¥n> ");
+  scanf("%s",name);
+  printf("Hello, %s¥n",name);
   printf("Tssing a coin...¥n");
   for(i=0;i<3;i++){
     srand(time(NULL));
